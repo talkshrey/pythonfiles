@@ -27,6 +27,11 @@ def individual_digits(num):
         first_word = myDict.get(first_digit)
         two_digit_word = myDict2.get(second_digit)
         return first_word + " hundred and " + two_digit_word
+    
+    elif 11 <= two_digit <= 19:
+        first_word = myDict.get(first_digit)
+        two_digit_word = myDict3.get(two_digit)
+        return first_word + " hundred and " + two_digit_word
 
     else:
         first_word = myDict.get(first_digit)
